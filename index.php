@@ -54,7 +54,7 @@ $asc_or_desc = $sort_order == 'ASC' ? 'desc' : 'asc';
                  while ($result = mysqli_fetch_array($query)) {
 
                   // Sort while loop
-                 while ($result = $sresult->fetch_assoc()){
+                 while ($result = mysqli_fetch_array($sresult)){
                 ?>
 			    <tr>
 			      <td><?php echo $result['seller_info']; ?></td>
