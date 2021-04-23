@@ -76,6 +76,7 @@ $asc_or_desc = $sort_order == 'ASC' ? 'desc' : 'asc';
 
       <?php
 }
+
 ?>
 
 </section>
