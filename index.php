@@ -76,10 +76,6 @@ $asc_or_desc = $sort_order == 'ASC' ? 'desc' : 'asc';
 
       <?php
 }
-else{
-    $selectquery = "SELECT * FROM ad_details";
-    $query = mysqli_query($con, $selectquery);
-}
 ?>
 
 </section>
